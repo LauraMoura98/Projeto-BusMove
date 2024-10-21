@@ -10,8 +10,8 @@
         html {
     scroll-behavior: smooth;
   }
-         body {
-      background-image: linear-gradient(rgba(5, 161, 188, 0.5), rgba(255, 200, 0, 0.233)), 
+        body {
+      background-image: linear-gradient( rgba(255, 200, 0, 0.233), rgba(5, 161, 188, 0.5)), 
       url('/img/background_session.png');
       background-size: cover; 
       background-position: center; 
@@ -25,8 +25,8 @@
       align-items: center;
     }
     .section{
-      height: 90vh;
-      padding: 0, 10px, 0, 10px;
+      padding-top: 80px; 
+      min-height: calc(100vh - 80px);
     }
     </style>
 </head>
@@ -42,19 +42,19 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#principal">Início</a>
+            <a class="nav-link active border-end" aria-current="page" href="#principal">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sobre-nos">Sobre</a>
+            <a class="nav-link border-end" href="#sobre-nos">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Serviços</a>
+            <a class="nav-link" href="#pesquisa">Colabore Conosco</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <section class="principal-section" id="principal">
+  <section class="principal" id="principal">
       <div class="centralizado container text-center">
         <div class="row">
           <div class="col">
@@ -70,15 +70,19 @@
         </div>
       </div>
     </section>
-      <section id="sobre-nos" class="py-5 bg-light px-4">
+      <section id="sobre-nos" class="bg-light px-4 section">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <h2 class="mb-4 fw-bold">SOBRE O BUSMOVE</h2>
               <p>
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Nascetur phasellus integer quam senectus mauris proin viverra rutrum. Montes porta ligula pellentesque volutpat sagittis ut litora. Eget tellus dictum nostra dictum tempor risus potenti fermentum netus. Vehicula nec orci interdum ligula non cubilia ligula! Curae urna ac; scelerisque consectetur convallis non. Nibh pharetra mollis himenaeos purus montes velit finibus. Primis potenti accumsan malesuada ad magnis neque adipiscing accumsan nostra. Enim consequat dignissim justo pulvinar dis facilisis varius lacus efficitur. Vulputate ultricies nisl arcu praesent senectus.
-                Amet elit dui primis praesent, mauris sodales nisi ut. Consectetur aptent est per eu himenaeos metus netus. Etiam urna consequat proin lacus suscipit a. Mattis orci lacus vitae cubilia finibus in. Integer turpis proin nunc, porta velit aliquam. Mollis massa rhoncus vestibulum in cras cras magna massa arcu. Elit platea ipsum libero odio vivamus.
-                Ornare convallis massa mollis; pretium molestie felis natoque venenatis lobortis. Nisi mus adipiscing ultricies sagittis rutrum fermentum phasellus. Proin non orci sem orci sapien fames. Lacinia mus vulputate magnis et; erat et habitasse luctus. Semper facilisi congue at erat donec tempor fringilla. Porttitor eros rhoncus ullamcorper augue imperdiet phasellus tellus pulvinar. Lacinia lacus malesuada laoreet fringilla malesuada; quis cursus.
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Posuere efficitur sociosqu dignissim senectus nunc nam. Tortor cubilia dictum ligula, conubia cursus nisl purus per ipsum. Justo class venenatis felis sit ultricies massa. Montes mattis conubia sed hac natoque habitasse. Torquent praesent commodo non risus elit eleifend lectus.
+
+                Varius iaculis suscipit ridiculus pulvinar nisl a. Netus morbi vel ridiculus quis phasellus. Lobortis sapien mi inceptos augue magna nam dignissim? Pretium risus maximus quisque consequat blandit ultrices. Fames cubilia ullamcorper augue condimentum finibus cubilia. Posuere ridiculus a amet; magna penatibus parturient consequat mauris. Tincidunt dictumst felis consectetur accumsan lacinia platea. Habitant inceptos aptent; platea inceptos id dolor vel sed.
+                
+                Nibh sem euismod; facilisis cursus arcu ut suspendisse. Euismod eget congue leo dapibus purus ligula. Amet malesuada magna molestie sagittis suscipit; nibh egestas. Scelerisque nec orci nibh gravida tempus, augue quisque. Ex metus hendrerit pellentesque lectus quisque congue. Felis leo volutpat varius pharetra praesent habitasse sit. Integer feugiat cursus urna nibh dictum luctus. Duis ultrices habitasse convallis, laoreet facilisi vestibulum velit tellus platea.
+                
+                Lacinia quam quis nostra commodo sagittis est ut. Eget diam donec ac maecenas pharetra arcu. Massa ligula penatibus sapien duis sollicitudin in condimentum fusce. Sodales ultrices aliquam facilisi dictum efficitur primis primis nullam. Elementum nam eros sagittis per maecenas justo. Hendrerit erat eleifend cubilia suspendisse odio erat. Sit hac venenatis interdum, natoque curabitur odio mi. Convallis fringilla hac fames hendrerit et pellentesque curabitur.
               </p>
             </div>
             <div class="col-md-6">
@@ -87,5 +91,43 @@
           </div>
         </div>
       </section>
+      <section id="pesquisa" class="bg-light px-4 section">
+        <div class="container">
+          <div class="row">
+            <h2 class="mb-4 fw-bold">COLABORE COM O PROJETO E ENVIE UMA SUGESTÃO!</h2>
+            <div class="col-md-6">
+              <p>
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Posuere efficitur sociosqu dignissim senectus nunc nam. Tortor cubilia dictum ligula, conubia cursus nisl purus per ipsum. Justo class venenatis felis sit ultricies massa. Montes mattis conubia sed hac natoque habitasse. Torquent praesent commodo non risus elit eleifend lectus.
+
+                Varius iaculis suscipit ridiculus pulvinar nisl a. Netus morbi vel ridiculus quis phasellus. Lobortis sapien mi inceptos augue magna nam dignissim? Pretium risus maximus quisque consequat blandit ultrices. Fames cubilia ullamcorper augue condimentum finibus cubilia. Posuere ridiculus a amet; magna penatibus parturient consequat mauris. Tincidunt dictumst felis consectetur accumsan lacinia platea. Habitant inceptos aptent; platea inceptos id dolor vel sed.
+                
+                Nibh sem euismod; facilisis cursus arcu ut suspendisse. Euismod eget congue leo dapibus purus ligula. Amet malesuada magna molestie sagittis suscipit; nibh egestas. Scelerisque nec orci nibh gravida tempus, augue quisque. Ex metus hendrerit pellentesque lectus quisque congue. Felis leo volutpat varius pharetra praesent habitasse sit. Integer feugiat cursus urna nibh dictum luctus. Duis ultrices habitasse convallis, laoreet facilisi vestibulum velit tellus platea.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="container mt-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sugestao" class="form-label">Sugestão</label>
+                        <textarea class="form-control" id="sugestao" rows="4" placeholder="Escreva sua sugestão" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="text-center py-4" style="background-color: rgb(163, 163, 163);">
+        <p class="mb-0" style="color: rgb(35, 35, 35);">&copy; 2024 BUSMOVE - Todos os direitos reservados</p>
+      </footer>
 </body>
 </html>
